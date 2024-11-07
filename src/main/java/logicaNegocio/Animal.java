@@ -9,7 +9,6 @@ public abstract class Animal {
     public TipoHabitat getHabitat() {
         return habitat;
     }
+
 }
-
-
 
