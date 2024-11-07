@@ -3,7 +3,7 @@ package logicaNegocio;
 public abstract class Animal {
     // TODO: Aquí va tu código
 }
-// Animal.java
+
 public abstract class Animal {
     protected TipoHabitat habitat;
     
@@ -22,39 +22,7 @@ public enum TipoHabitat {
     AEREO
 }
 
-// Leon.java
-public class Leon extends Animal {
-    public Leon() {
-        this.habitat = TipoHabitat.TERRESTRE;
-    }
-    
-    @Override
-    public String emitirSonido() {
-        return "Rugido";
-    }
-    
-    @Override
-    public String obtenerDieta() {
-        return "Carnívoro";
-    }
-}
 
-// Delfin.java
-public class Delfin extends Animal {
-    public Delfin() {
-        this.habitat = TipoHabitat.ACUATICO;
-    }
-    
-    @Override
-    public String emitirSonido() {
-        return "Chirrido";
-    }
-    
-    @Override
-    public String obtenerDieta() {
-        return "Pescado";
-    }
-}
 
 // Domestico.java
 public interface Domestico {
