@@ -1,6 +1,8 @@
 package logicaNegocio;
 
 public class Perro extends Animal implements Domestico {
+
+    private final TipoHabitat habitat;
     public Perro() {
         this.habitat = TipoHabitat.TERRESTRE;
     }
